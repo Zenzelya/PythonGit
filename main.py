@@ -63,8 +63,6 @@ def new_snake():
      snake_y.append(snake_y)
      snake_dir.append(moove_direction)
 
-
-
 class Menu:
     def __init__(self, punkts = (1024, 600, 'Punkts', (250,0,0), (250,30,250), 0)):
         self.punkts = punkts
@@ -291,5 +289,5 @@ while done == False:
     # Ограничить до 20 кадров в секунду
     pygame.display.flip()
     clock.tick(6)
-
+    print("Hello")
 pygame.quit()
